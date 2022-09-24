@@ -2,7 +2,9 @@ import React from 'react'
 
 function Summary_pages() {
   return (
-    <div>Summary_pages</div>
+    <div>
+      Summary
+    </div>
   )
 }
 

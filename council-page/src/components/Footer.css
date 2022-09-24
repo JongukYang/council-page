@@ -1,0 +1,45 @@
+.footer-container{
+    background-color: #4A4D5E;
+    /* padding: 1rem 0 1rem 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.footer-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    /* margin-bottom: 24px; */
+    padding: 24px;
+    color: white;
+}
+
+/* .footer-subscription > p {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    /* or 17px 
+
+
+color: #FFFFFF;
+
+} */
+
+.footer-subscription-text {
+    font-size: 12px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    /* or 17px */
+
+
+color: #FFFFFF;
+}

@@ -5,15 +5,15 @@ import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route} 
 from 'react-router-dom';
 import './App.css';
+import Main from './components/pages/Main';
 
 function App() {
   return (
     <>
     <Router>
       <Navbar/>
-      <Footer/>
       <Routes>
-      {/* <Route path="/" element={<Navbar />} /> */}
+      <Route path="/" element={<Main />} />
       </Routes>
     </Router>
     </>

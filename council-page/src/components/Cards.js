@@ -20,6 +20,7 @@ function Card() {
         <div className=''><img src={Cardimg}/></div>
         <div className=''><img src={Cardimg}/></div>
         <div className=''><img src={Cardimg}/></div>
+        <div className=''><img src={Cardimg}/></div>
         </div>
       </div>
     </div>

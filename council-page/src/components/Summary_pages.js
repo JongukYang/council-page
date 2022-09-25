@@ -1,4 +1,5 @@
 import React from 'react'
+import './Summary_pages.css'
 
 function Summary_pages() {
   return (

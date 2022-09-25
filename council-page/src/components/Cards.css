@@ -1,7 +1,7 @@
 .cards {
     /* padding: 4rem; */
     background: #fff;
-    padding: 3.5rem 24rem;
+    padding: 3.6rem 24vw;
   }
 
 .cards>p{
@@ -35,7 +35,7 @@
     margin: 50px 0 45px; */
     position: relative;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     list-style: none;
     text-align: center;

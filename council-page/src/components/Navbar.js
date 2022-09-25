@@ -60,7 +60,7 @@ function Navbar() {
                     </li>
                     <li className='nav-item'>
                         <Link to='/communication' className='nav-links' onClick = {closeMobileMenu}>
-                            소통
+                            소통하다
                         </Link>
                     </li>
                     <li className='nav-item'>

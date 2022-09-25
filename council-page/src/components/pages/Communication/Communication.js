@@ -64,6 +64,7 @@ function Communication() {
                         title={element.title}
                     />
             ))}
+            
           </ul>
         )
         }

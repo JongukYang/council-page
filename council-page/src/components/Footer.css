@@ -5,12 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    padding: 3vw 24vw;
+    padding: 1rem 24vw;
 }
 
 .footer-subscription {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     justify-content: center;
     align-items: left;
     text-align: left;
@@ -37,8 +37,8 @@ color: #FFFFFF;
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 140%;
+    /* font-size: 12px; */
+    /* line-height: 140%; */
     /* or 17px */
 
 

@@ -48,6 +48,7 @@
     width: 30%;
     display: inline-block;
     margin-left: 5%;
+    cursor: pointer;
 }
 
 .noticeBoard>:hover{

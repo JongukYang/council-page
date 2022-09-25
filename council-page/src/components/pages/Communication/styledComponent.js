@@ -1,4 +1,12 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+
+export const PostHeader = styled.div`
+    width: 80%;
+    margin: 0 auto;
+    /* text-align: center; */
+    border-spacing: 0;
+    display: block;
+`;
 
 export const PostSection = styled.div`
     margin: 0px auto;
@@ -11,13 +19,13 @@ export const PostSection = styled.div`
 export const PostTitle = styled.span`
     margin-top: 10px;
     margin-bottom: 5px;
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: "Black Han Sans", sans-serif;
     font-size: 25px;
 `;
 
 export const PostListDiv = styled.div`
     font-size: 16px;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
 `;
 
 export const LoadingDiv = styled.div`

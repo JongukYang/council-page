@@ -1,24 +1,16 @@
 import React, { Component } from "react";
-import { AuthContent, InputWithLabel } from "../auth";
 
-class Login extends Component {
-    render() {
-        return (
-            <AuthContent title="로그인">
-                <InputWithLabel
-                    label="이메일"
-                    name="email"
-                    placeholder="이메일"
-                />
-                <InputWithLabel
-                    label="비밀번호"
-                    name="password"
-                    placeholder="비밀번호"
-                    type="password"
-                />
-            </AuthContent>
-        );
-    }
+function Login() {
+    return (
+        <form>
+            <input type="text" placeholder="아이디를 입력하세요" />
+            <br />
+            <input type="password" placeholder="비밀번호를 입력하세요" />
+            <br />
+            <input type="submit" value="로그인" />
+            <br />
+        </form>
+    );
 }
 
 export default Login;

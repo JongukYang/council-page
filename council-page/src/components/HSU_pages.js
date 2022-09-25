@@ -28,38 +28,38 @@ function HSU_pages() {
       <div className='HSU-pages-container'>
         <div className='HSU-pages-wrapper'>
 
-          <Card id='HSU-pages-item' onClick={hansung} className='border-white' style={{ width: '10vw' }}>
+          <Card id='HSU-pages-item' onClick={hansung} className='border-white' style={{ width: '8vw' }}>
             <Card.Img className='HSU-pages-img' variant="top" src={info_img} />
             <Card.Body className='HSU-pages-body'>
               <Card.Text className='HSU-pages-text'>한성대학교<br />공식 웹사이트</Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id='HSU-pages-item' onClick={eclass} className='border-white' style={{ width: '10vw' }}>
+          <Card id='HSU-pages-item' onClick={eclass} className='border-white' style={{ width: '8vw' }}>
             <Card.Img className='HSU-pages-img' variant="top" src={info_img} />
             <Card.Body className='HSU-pages-body'>
               <Card.Text className='HSU-pages-text'>E-class</Card.Text>
             </Card.Body>
           </Card>
-          <Card id='HSU-pages-item' onClick={infoservice} className='border-white' style={{ width: '10vw' }}>
+          <Card id='HSU-pages-item' onClick={infoservice} className='border-white' style={{ width: '8vw' }}>
             <Card.Img className='HSU-pages-img' variant="top" src={info_img} />
             <Card.Body className='HSU-pages-body'>
               <Card.Text className='HSU-pages-text'>종합정보시스템</Card.Text>
             </Card.Body>
           </Card>
-          <Card id='HSU-pages-item' onClick={hsportal} className='border-white' style={{ width: '10vw' }}>
+          <Card id='HSU-pages-item' onClick={hsportal} className='border-white' style={{ width: '8vw' }}>
             <Card.Img className='HSU-pages-img' variant="top" src={info_img} />
             <Card.Body className='HSU-pages-body'>
               <Card.Text className='HSU-pages-text'>스마트<br />자기관리시스템</Card.Text>
             </Card.Body>
           </Card>
-          <Card id='HSU-pages-item' onClick={hsel} className='border-white' style={{ width: '10vw' }}>
+          <Card id='HSU-pages-item' onClick={hsel} className='border-white' style={{ width: '8vw' }}>
             <Card.Img className='HSU-pages-img' variant="top" src={info_img} />
             <Card.Body className='HSU-pages-body'>
               <Card.Text className='HSU-pages-text'>학술정보관</Card.Text>
             </Card.Body>
           </Card>
-          <Card id='HSU-pages-item' onClick={cncschool} className='border-white' style={{ width: '10vw' }}>
+          <Card id='HSU-pages-item' onClick={cncschool} className='border-white' style={{ width: '8vw' }}>
             <Card.Img className='HSU-pages-img' variant="top" src={info_img} />
             <Card.Body className='HSU-pages-body'>
               <Card.Text className='HSU-pages-text'>창의융합<br />교육지원센터</Card.Text>

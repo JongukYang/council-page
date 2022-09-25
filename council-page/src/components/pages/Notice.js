@@ -1,8 +1,13 @@
-import React from 'react'
-
+import React, {useState} from 'react'
+import NoticeArea from './NoticeArea';
+import NoticeBoard from './NoticeBoard';
 function Notice() {
+
   return (
-    <div>Notice</div>
+    <div className="container">
+      <NoticeArea />
+      <NoticeBoard />
+    </div>
   )
 }
 

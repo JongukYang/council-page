@@ -1,6 +1,7 @@
 .cards {
-    padding: 4rem;
+    /* padding: 4rem; */
     background: #fff;
+    padding: 3.5rem 24rem;
   }
 
 .cards>p{
@@ -10,22 +11,36 @@
     font-size: 24px;
     line-height: 170%;
     /* identical to box height, or 41px */
-
-
-color: #000000;
+    color: #000000;
 }  
   .cards__container {
-    display: flex;
-    flex-flow: column;
-    /* align-items:center; */
+    /* display: flex;
+    /* flex-flow: column;
     max-width: 500px;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    
   }
 
+  img{
+    width: 100%; height: 100%; 
+  }
   .cards__wrapper {
+    /* position: relative;
+    margin: 50px 0 45px; */
     position: relative;
-    margin: 50px 0 45px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    list-style: none;
+    text-align: center;
+    width: 100vw;
+    justify-content: center;
   }
 
   .cards__items {
@@ -34,14 +49,14 @@ color: #000000;
   
   .cards__item {
     display: flex;
-    flex: 1;
+    flex: 1 1;
     margin: 0 1rem;
     border-radius: 10px;
   }
 
   .cards__item__link {
     display: flex;
-    flex-flow: column;
+    /* flex-flow: column; */
     width: 100%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));

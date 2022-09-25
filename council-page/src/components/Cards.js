@@ -8,10 +8,18 @@ function Card() {
     <div className='cards'>
       <p>SNS Card News</p>
       <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+        {/* <div className='cards__wrapper'> */}
+          {/* <ul className='cards__items'>
             <CardItem src = {Cardimg} path='https://github.com/HSU-Council-FE/council-page' />
-          </ul>
+
+            <CardItem src = {Cardimg} path='https://github.com/HSU-Council-FE/council-page' />
+          </ul> */}
+        {/* </div> */}
+        <div className='cards__wrapper'>
+        <div className=''><img src={Cardimg}/></div>
+        <div className=''><img src={Cardimg}/></div>
+        <div className=''><img src={Cardimg}/></div>
+        <div className=''><img src={Cardimg}/></div>
         </div>
       </div>
     </div>

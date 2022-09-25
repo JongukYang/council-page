@@ -22,6 +22,7 @@ const initialPostList=[
 function Communication() {
 
   const [postList,setPostList] = useState([]); //postList 변수 정의하고 setPostList함수로 부른다. 
+    const [list, setList] = useState([]);
   const[page, setPage] = useState(1);
   const [pages,setPages] = useState([]);
 
@@ -32,32 +33,26 @@ function Communication() {
   //       ]);
   // },[postList]); //postList가 바뀌면 새로 바꿔주세요 
 
-  const getPostList = useCallback(() => {
-    axios.get("https://jsonplaceholder.typicode.com/posts").then(response => {
-        const lastPage = Math.ceil(100 / 10); //10개씩 가지고오고 //count?로 바꿔야할듯
-        const tempPages = [];
-        for (let i = 1; i <= lastPage; i++) {
-        tempPages.push(i); //배열에 push
-        }
-        setPages(tempPages);
-        
-        setPostList(response.data.results);
+  const getPostList =  useEffect(()=> {
+    axios.get("https://jsonplaceholder.typicode.com/posts").then((response)=>{
         //console.log(response);
-        })
+        setList(response.data.slice(0,10));
+        console.log(list);
     });
+}, []);
 
-    useEffect(getPostList, [page]); //page가 바뀔 때 마다
+    
   return (
     <>
       <PostSection>
       <PostTitle>전체 게시판</PostTitle>
 
       <PostListDiv>
-        {postList === null ?(
+        {list === null ?(
           <LoadingDiv>아직 기록된 글이 없습니다</LoadingDiv>
         ):(
           <ul>
-            {postList.map((element) => (
+            {list.map((element) => (
                     <EachPost
                         key={element.id}
                         postID={element.id}

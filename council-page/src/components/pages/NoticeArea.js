@@ -27,7 +27,7 @@ export default function NoticeArea() {
           }}
           style={{
             color: isNotice === true ? "black" : "#D9D9D9",
-            borderBottom: isNotice === true ? "2px solid black" : "none",
+            // borderBottom: isNotice === true ? "2px solid black" : "none",
           }}
         >
           공지사항
@@ -38,7 +38,7 @@ export default function NoticeArea() {
           }}
           style={{
             color: isNotice === false ? "black" : "#D9D9D9",
-            borderBottom: isNotice === false ? "2px solid black" : "none",
+            // borderBottom: isNotice === false ? "2px solid black" : "none",
           }}
         >
           회의록

@@ -1,5 +1,4 @@
 import React from 'react'
-import CardItem from './CardItem';
 import './Cards.css';
 import Cardimg from './../images/card1.png'
 
@@ -19,11 +18,11 @@ function Card() {
           </ul> */}
         {/* </div> */}
         <div className='cards__wrapper'>
-        <div className='' onClick={Insta}><img src={Cardimg}/></div>
-        <div className=''><img src={Cardimg}/></div>
-        <div className=''><img src={Cardimg}/></div>
-        <div className=''><img src={Cardimg}/></div>
-        <div className=''><img src={Cardimg}/></div>
+        <div className='cards__img' onClick={Insta}><img src={Cardimg}/></div>
+        <div className='cards__img' onClick={Insta}><img src={Cardimg}/></div>
+        <div className='cards__img' onClick={Insta}><img src={Cardimg}/></div>
+        <div className='cards__img' onClick={Insta}><img src={Cardimg}/></div>
+        <div className='cards__img' onClick={Insta}><img src={Cardimg}/></div>
         </div>
       </div>
     </div>

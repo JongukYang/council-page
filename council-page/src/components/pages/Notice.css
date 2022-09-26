@@ -4,14 +4,14 @@
 }
 .NoticeArea {
     display: inline-block;
-    width: 45%;
+    width: 50%;
     
 }
 .section {
     list-style:none;
     display: flex;
     border-bottom: 2px solid #D9D9D9;
-    padding-left: 0;
+    margin-left: 1%;
     
 }
 
@@ -28,6 +28,7 @@
 .noticeList {
     margin-top: 1%;
     margin-bottom: 1%;
+    margin-left: 5%;
     
 }
 
@@ -45,7 +46,7 @@
 
 
 .noticeBoard {
-    width: 30%;
+    width: 45%;
     display: inline-block;
     margin-left: 5%;
     cursor: pointer;

@@ -1,0 +1,12 @@
+body{
+    background: #F5F5F5;
+}
+.login-box{
+   padding: 5% 30%;
+   height: 80%;
+}
+
+#panel{
+    background-color: white;
+    box-shadow: 0px 2px 8px rgba(72, 74, 113, 0.16);
+}

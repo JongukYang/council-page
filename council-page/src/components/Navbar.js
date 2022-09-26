@@ -71,6 +71,7 @@ function Navbar() {
                    
                 </ul>
                 <ul className={click ? 'nav-menu active' : 'nav-menu-sign'}>
+                    
                 <li className='nav-item'>
                         <Link to='/sign-up' className='nav-links-sign' onClick = {closeMobileMenu}>
                             회원가입

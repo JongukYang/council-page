@@ -9,7 +9,9 @@ function Login() {
     return (
         <div className="login-box">
             <Container id="panel">
+                <div className="form-title">로그인</div>
                 <Form className="form">
+                {/* <div className="form-title">로그인</div> */}
                     <Form.Group
                         as={Row}
                         className="mb-3"

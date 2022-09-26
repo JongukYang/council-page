@@ -55,9 +55,9 @@ function Communication() {
                                 {list.map((element) => (
                                     <tr>
                                         <EachPost
-                                            key={element.id}
                                             postID={element.id}
                                             title={element.title}
+                                            body={element.body}
                                         />
                                     </tr>
                                 ))}

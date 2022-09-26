@@ -31,7 +31,7 @@ function Navbar() {
 
     return (
     <>
-    <nav className='navbar'>
+    <nav className='navibar'>
         <div className='navbar-container'>
             <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
                 BASE
@@ -68,7 +68,10 @@ function Navbar() {
                             편의정보
                         </Link>
                     </li>
-                    <li className='nav-item'>
+                   
+                </ul>
+                <ul className={click ? 'nav-menu active' : 'nav-menu-sign'}>
+                <li className='nav-item'>
                         <Link to='/sign-up' className='nav-links-sign' onClick = {closeMobileMenu}>
                             회원가입
                         </Link>

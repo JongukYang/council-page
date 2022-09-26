@@ -1,4 +1,4 @@
-.navbar {
+.navibar {
     background: linear-gradient(90deg, white) 0%, white 100%;
     height: 80px;
     display: flex;
@@ -8,7 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    padding-left: 24vw;
+    /* padding-left: 24vw; */
   }
   
   .navbar-container {
@@ -91,13 +91,26 @@
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(7, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 61vw;
+    /* width: 61vw;/ */
     justify-content: end;
     margin-right: 1rem;
+    margin-bottom: 0rem;
+  }
+  .nav-menu-sign {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    /* width: 61vw; */
+    font-size: 0.5rem;
+    justify-content: end;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
   }
   
   .nav-item {

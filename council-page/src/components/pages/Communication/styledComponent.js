@@ -43,6 +43,13 @@ export const EachPostLi = styled.li`
     justify-content: space-between;
 `;
 
+export const EachPostdiv = styled.div``;
+
+export const EachPostTd = styled.td`
+    width: 300px;
+    margin: 50px;
+`;
+
 export const PagenumberDiv = styled.div`
     width: 30px;
     height: 30px;

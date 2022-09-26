@@ -1,5 +1,5 @@
-.HSU-pages{
-    background: #F9FAFC;
+.HSU-pages {
+    background: #f9fafc;
     padding: 3rem 24vw;
     margin: auto;
 }
@@ -14,10 +14,9 @@
     justify-content: center;
     align-items: center;
     object-fit: contain;
-    
-  }
+}
 
-  .HSU-pages-wrapper {
+.HSU-pages-wrapper {
     /* position: relative;
     margin: 50px 0 45px; */
     position: relative;
@@ -28,37 +27,37 @@
     text-align: center;
     /* width: 70vw; */
     justify-content: center;
-  }
+}
 
-  #HSU-pages-item{
+#HSU-pages-item {
     background-color: white;
-    
+
     border-radius: 8px;
     cursor: pointer;
-  }
+}
 
-  .HSU-pages-wrapper>:hover{
+.HSU-pages-wrapper > :hover {
     box-shadow: 0px 2px 10px rgba(115, 127, 141, 0.2);
-  }
+}
 
-  .HSU-pages-body{
+.HSU-pages-body {
     height: 50%;
     align-items: center;
     justify-items: center;
     justify-content: center;
-  }
+}
 
-  .HSU-pages-img{
+.HSU-pages-img {
     /* padding: 2vw; */
     width: 30%;
-    height: 30%;
+    height: auto;
     margin: auto;
     margin-top: 1rem;
-  }
-  
-  .HSU-pages-text{
+}
+
+.HSU-pages-text {
     font-size: 1rem;
     align-items: center;
     justify-items: center;
     justify-content: center;
-  }
+}

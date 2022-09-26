@@ -9,7 +9,7 @@ function Login() {
     return (
         <div className="login-box">
             <Container id="panel">
-                <Form>
+                <Form className="form">
                     <Form.Group
                         as={Row}
                         className="mb-3"

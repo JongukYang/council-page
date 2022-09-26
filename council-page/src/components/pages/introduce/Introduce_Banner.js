@@ -1,7 +1,8 @@
 import React from 'react'
 import "../../../App.css";
-import "./Introduce_Banner.css";
 import Intro_Banner_img from "../../../images/Intro_Banner_img.png";
+import "./Introduce.css";
+
 
 function Introduce_Banner() {
   return (

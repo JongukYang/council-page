@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+}
+
+#Nav_bar{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 4rem;
+    background-color: white;
+
+}
+
+.Nav_item{
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 170%;
+    color: #000000;
+}
+
+.Nav_item:hover {
+    border-bottom: 0.2rem solid black;
+    transition: all 0.2s ease-out;
+    color: #000000; 
+    font-weight: 700;
+  }
+
+  .Body-container{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    padding: 0% 30% 0% 30%;
+  }
+
+  #card-container{
+    padding: 0 20% 10%;
+  }
+
+  .card{
+    padding: 5%;
+    text-align: center;
+    background-color: #F9FAFC;
+    border-color: #F9FAFC;
+    box-shadow: 0px 4px 9px rgba(49, 50, 82, 0.2);
+border-radius: 16px;
+  }
+
+  .card-title {
+      font-family: 'S-Core Dream';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 180%;
+  }
+
+  .card-body {
+      font-family: 'S-Core Dream';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 180%;
+      /* or 29px */
+
+      text-align: center;
+
+      color: #000000;
+  }
+
+
+
+  

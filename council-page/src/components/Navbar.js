@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import {Button} from './Button';
+import Dropdown from 'react-bootstrap/Dropdown';
+
 import './Navbar.css';
 
 function Navbar() {
@@ -45,7 +47,18 @@ function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
                         <Link to='/introduce' className='nav-links' onClick = {closeMobileMenu}>
-                            총학생회 소개
+                            총학생회
+                            {/* <Dropdown>
+                                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                    총학생회 소개
+                                    </Dropdown.Toggle>
+
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown> */}
                         </Link>
                     </li>
                     <li className='nav-item'>

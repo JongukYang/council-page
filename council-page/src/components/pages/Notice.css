@@ -63,6 +63,7 @@
     padding: 5% 10% 5% 10%;
     background: linear-gradient( to right, #505E82, #99ABD6 );
     color: white;
+    height: 8rem;
 }
 
 
@@ -70,8 +71,22 @@
     padding: 5% 10% 5% 10%;
     background: linear-gradient( to right, #505E82, #99ABD6 );
     color: white;
+    height: 8rem;
 }
 
+.board-Title{
+    font-family: 'S-Core Dream';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 170%;
+/* identical to box height, or 34px */
+
+
+color: #FFFFFF;
+
+
+}
 
 
 .explain{

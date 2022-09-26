@@ -1,3 +1,7 @@
+#dropdown-basic{
+  background-color: white 0%;
+}
+
 .navibar {
     /* background: white 100%; */
     background: linear-gradient(90deg, white 0%, white 100%);
@@ -135,7 +139,7 @@
 
   
   .nav-links:hover {
-    border-bottom: 4px solid #1845BA;
+    border-bottom: 4px solid #99AAD5;;
     transition: all 0.2s ease-out;
   }
 

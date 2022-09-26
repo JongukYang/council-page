@@ -1,9 +1,16 @@
 body{
-    background: #F5F5F5;
+    background: #F9FAFC;
+    height: 100vh;
 }
 
 .form-title{
     margin: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .login-box{
@@ -14,12 +21,41 @@ body{
 #panel{
     background-color: white;
     box-shadow: 0px 2px 8px rgba(72, 74, 113, 0.16);
-    height: 40rem;
+    height: 38rem;
     width: 35rem;
+    padding: 10%;
+    
 }
 
+#formPlaintextPassword{
+    height: 4rem;
+    background: #F9FAFC;
+    border: 1px solid rgba(110, 119, 141, 0.3);
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 170%;
+/* identical to box height, or 41px */
+    /* color: rgba(110, 119, 141, 0.2); */
+}
 .form{
     align-items: center;
     justify-items: center;
 
+}
+
+.button-style{
+    margin: auto;
+    margin-top: 7rem;
+    background-color: #2B87F2;
+    height: 4rem;
+    width: 20rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: #2B87F2;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
 }

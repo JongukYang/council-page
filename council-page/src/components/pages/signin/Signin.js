@@ -14,34 +14,34 @@ function Login() {
                 {/* <div className="form-title">로그인</div> */}
                     <Form.Group
                         as={Row}
-                        className="mb-3"
+                        className="mb-4"
                         controlId="formPlaintextPassword"
                     >
                         <Col sm>
                             <Form.Control
                                 type="password"
-                                placeholder="UserID"
+                                placeholder="학번을 입력해주세요"
                             />
                         </Col>
                     </Form.Group>
 
                     <Form.Group
                         as={Row}
-                        className="mb-3"
+                        className=""
                         controlId="formPlaintextPassword"
                     >
                         <Col sm>
                             <Form.Control
                                 type="password"
-                                placeholder="Password"
+                                placeholder="비밀번호를 입력해주세요"
                             />
                         </Col>
                     </Form.Group>
                     <br />
 
                     <div className="d-grid gap-1">
-                        <Button variant="secondary" type="submit">
-                            Sign In
+                        <Button className="button-style" variant="secondary" type="submit">
+                            로그인
                         </Button>
                     </div>
                 </Form>

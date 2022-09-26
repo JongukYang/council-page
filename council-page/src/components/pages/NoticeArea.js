@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NoticeData } from "./apis/NoticeApi";
 import "./Notice.css";
 import Arrow2 from "../../images/Arrow2.png";
+
 export default function NoticeArea() {
   const [isNotice, setIsNotice] = useState(true); //공지사항인지 회의록인지 체크하는 state
   const noticeData = [

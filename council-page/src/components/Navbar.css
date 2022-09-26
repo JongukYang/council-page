@@ -139,7 +139,7 @@
 
   
   .nav-links:hover {
-    border-bottom: 4px solid #99AAD5;;
+    border-bottom: 4px solid #99AAD5;
     transition: all 0.2s ease-out;
   }
 

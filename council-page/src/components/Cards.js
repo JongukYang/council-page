@@ -4,6 +4,9 @@ import './Cards.css';
 import Cardimg from './../images/card1.png'
 
 function Card() {
+  function Insta() {
+    document.location.href = "https://www.hansung.ac.kr/"
+  }
   return (
     <div className='cards'>
       <p>SNS Card News</p>
@@ -16,7 +19,7 @@ function Card() {
           </ul> */}
         {/* </div> */}
         <div className='cards__wrapper'>
-        <div className=''><img src={Cardimg}/></div>
+        <div className='' onClick={Insta}><img src={Cardimg}/></div>
         <div className=''><img src={Cardimg}/></div>
         <div className=''><img src={Cardimg}/></div>
         <div className=''><img src={Cardimg}/></div>

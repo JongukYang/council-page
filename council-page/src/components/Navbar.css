@@ -1,5 +1,6 @@
 .navibar {
-    background: linear-gradient(90deg, white) 0%, white 100%;
+    /* background: white 100%; */
+    background: linear-gradient(90deg, white 0%, white 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -17,6 +18,7 @@
     align-items: center;
     height: 80px;
     max-width: 1500px;
+    grid-gap: 3rem;
     /* padding: 1vw 24vw; */
    
     
@@ -27,19 +29,12 @@
 
     justify-self: start;
     margin-left: 20px;
-    /* padding-left: 24rem; */
+    /* padding-right: 2rem; */
     cursor: pointer;
     text-decoration: none;
     /* font-size: 2rem; */
     display: flex;
     align-items: center;
-
-
-    /* width: 95px;
-    height: 54px; */
-    /* left: 400px; */
-    /* top: 3px; */
-
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: 900;
@@ -92,13 +87,14 @@
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
+    grid-gap: 3rem;
     list-style: none;
     text-align: center;
     /* width: 61vw;/ */
     justify-content: end;
     margin-right: 1rem;
     margin-bottom: 0rem;
+    font-weight: 500;
   }
   .nav-menu-sign {
     display: grid;
@@ -115,6 +111,7 @@
   
   .nav-item {
     height: 80px;
+    
   }
   
   .nav-links {

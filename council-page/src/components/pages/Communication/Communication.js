@@ -50,15 +50,19 @@ function Communication() {
                     {list === null ? (
                         <LoadingDiv>아직 기록된 글이 없습니다</LoadingDiv>
                     ) : (
-                        <ul>
-                            {list.map((element) => (
-                                <EachPost
-                                    key={element.id}
-                                    postID={element.id}
-                                    title={element.title}
-                                />
-                            ))}
-                        </ul>
+                        <table className="common-table">
+                            <tbody>
+                                {list.map((element) => (
+                                    <tr>
+                                        <EachPost
+                                            key={element.id}
+                                            postID={element.id}
+                                            title={element.title}
+                                        />
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
                     )}
                 </PostListDiv>
             </PostSection>

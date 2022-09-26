@@ -8,7 +8,6 @@ const ComHeader = (props) => {
 
     return (
         <div className="com-header">
-            <h2 align="left">Q/A</h2>
             <Link to="/communication/question">
                 <Button variant="outline-success" align="right">
                     게시글 작성

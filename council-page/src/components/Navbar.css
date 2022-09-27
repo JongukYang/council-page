@@ -281,6 +281,7 @@
   }
   .contents{
     cursor:pointer;
+    line-height: 238%;
   }
   .contents:hover{
     font-weight: 800;

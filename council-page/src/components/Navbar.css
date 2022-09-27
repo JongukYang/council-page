@@ -251,3 +251,34 @@
       transition: 250ms;
     }
   }
+  .summaryBar {
+    display: flex;
+    position:sticky;
+    justify-content: center;
+    background-color: white;
+    flex-direction: row;
+    padding-right: 3%;
+    top:80px;
+    width: 100%;
+    font-size: 0.7rem;
+    z-index: 999;
+  }
+  .summaryBarHidden {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    position:absolute;
+    width: 100%;
+    padding-left: 22%;
+    visibility: hidden;
+  }
+  .summaryInfoSection {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0.9% 1% 1.7%;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+  }
+  .contents:hover{
+    font-weight: 800;
+  }

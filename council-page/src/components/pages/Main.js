@@ -10,7 +10,6 @@ function Main() {
     return (
         <>
             <Banner />
-            {/* <Summary_pages /> */}
             <Notice />
             <HSU_pages />
             <Cards />

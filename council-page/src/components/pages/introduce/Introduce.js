@@ -6,7 +6,8 @@ import Introduce_body from "./Introduce_body";
 import "./Introduce.css";
 
 function Introduce() {
-  const [hrefState, setHrefState] = useState('');
+  const [hrefState, setHrefState] = useState('hello');
+  
   return (
     <>
       <Introduce_Banner />

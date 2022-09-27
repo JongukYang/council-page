@@ -28,9 +28,7 @@ function Navbar() {
         showButton();
     }, []);
 
-    window.addEventListener('resize', ()=> {
-        showButton();
-    });
+    window.addEventListener('resize', ()=> {showButton()});
 
 
     return (

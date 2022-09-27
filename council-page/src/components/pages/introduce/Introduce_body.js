@@ -3,6 +3,7 @@ import "../../../App.css";
 import Profile_img from "./images/profile.png";
 import "./Introduce.css";
 import Card from 'react-bootstrap/Card';
+import body_organization from './organization/body_organization';
 
 function Introduce_body(props) {
     return (
@@ -35,7 +36,10 @@ function Introduce_body(props) {
             }
             {
                 props.hrefState === 'organization' &&
-                <> 조직도
+                <> 
+                왜안나와 시팔
+                <img src='./images/organization_img.png'/>
+                <body_organization/>
                 </>
             }
             {

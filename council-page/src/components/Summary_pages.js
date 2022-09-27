@@ -8,7 +8,6 @@ function Summary_pages() {
         <ul className='summary-items'>hello</ul>
         <ul className='summary-items'>hello22</ul>
       </div>
-      
     </div>
   )
 }

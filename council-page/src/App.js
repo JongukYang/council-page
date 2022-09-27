@@ -10,7 +10,7 @@ import Signin from "./components/pages/signin/Signin";
 import Communication from "./components/pages/Communication/Communication";
 import Information from "./components/pages/Information";
 import Introduce from "./components/pages/introduce/Introduce";
-import Office from "./components/pages/Office";
+import Office from "./components/pages/office/Office";
 import Notice from "./components/pages/Notice";
 import ComQuestion from "./components/pages/Communication/Communication_question";
 

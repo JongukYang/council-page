@@ -1,10 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "./Introduce.css";
 
 function Introduce_Navbar(props) {
+  const[nav, setNav] = useState('hello');
+
+  const nav_hover = () => {
+    if (props.href == '#'+{ }){
+
+    }
+  }
   return (
     <Navbar>
         <Container >

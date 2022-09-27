@@ -28,6 +28,13 @@ body{
     color: #000000; 
     font-weight: 700;
   }
+  
+  .Nav_item2 {
+    border-bottom: 0.2rem solid black;
+    transition: all 0.2s ease-out;
+    color: #000000; 
+    font-weight: 700;
+  }
 
   .Body-container{
     margin: auto;

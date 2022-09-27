@@ -1,8 +1,9 @@
 import React from 'react'
+import Banner_office from './Banner_office'
 
 function Office() {
   return (
-    <div>Office</div>
+    <Banner_office/>
   )
 }
 

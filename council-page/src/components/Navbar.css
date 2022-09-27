@@ -253,12 +253,12 @@
   }
   .summaryBar {
     display: flex;
-    position:sticky;
+    position:fixed;
     justify-content: center;
     background-color: white;
     flex-direction: row;
     padding-right: 3%;
-    top:80px;
+    top:65px;
     width: 100%;
     font-size: 0.7rem;
     z-index: 999;
@@ -278,6 +278,9 @@
     padding: 1% 0.9% 1% 1.7%;
     border-left: 1px solid #d9d9d9;
     border-right: 1px solid #d9d9d9;
+  }
+  .contents{
+    cursor:pointer;
   }
   .contents:hover{
     font-weight: 800;

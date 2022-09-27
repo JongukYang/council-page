@@ -46,9 +46,9 @@ function Navbar() {
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
             </div>
-            <ul className={click ? 'nav-menu active' : 'nav-menu'}  onMouseOver={()=>setShowSummaryBar(true)} onMouseLeave={()=>{setShowSummaryBar(false)}}>
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}  onMouseLeave={()=>{setShowSummaryBar(false)}}>
                     <li className='nav-item'>
-                        <Link to='/introduce' className='nav-links' onClick = {closeMobileMenu}>
+                        <Link to='/introduce' className='nav-links' onClick = {closeMobileMenu} onMouseOver={()=>setShowSummaryBar(true)}  onMouseLeave={()=>{setShowSummaryBar(false)}}>
                             총학생회
                             {/* <Dropdown>
                                     <Dropdown.Toggle variant="success" id="dropdown-basic">
@@ -64,22 +64,22 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/office' className='nav-links' onClick = {closeMobileMenu}>
+                        <Link to='/office' className='nav-links' onClick = {closeMobileMenu} onMouseOver={()=>setShowSummaryBar(true)}  onMouseLeave={()=>{setShowSummaryBar(false)}}>
                             중앙기구
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/notice' className='nav-links' onClick = {closeMobileMenu}>
+                        <Link to='/notice' className='nav-links' onClick = {closeMobileMenu} onMouseOver={()=>setShowSummaryBar(true)}  onMouseLeave={()=>{setShowSummaryBar(false)}}>
                             공지사항
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/communication' className='nav-links' onClick = {closeMobileMenu}>
+                        <Link to='/communication' className='nav-links' onClick = {closeMobileMenu} onMouseOver={()=>setShowSummaryBar(true)}  onMouseLeave={()=>{setShowSummaryBar(false)}}>
                             소통하다
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/information' className='nav-links' onClick = {closeMobileMenu}>
+                        <Link to='/information' className='nav-links' onClick = {closeMobileMenu} onMouseOver={()=>setShowSummaryBar(true)}  onMouseLeave={()=>{setShowSummaryBar(false)}}>
                             편의정보
                         </Link>
                     </li>

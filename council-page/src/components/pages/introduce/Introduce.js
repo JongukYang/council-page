@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 // import "../../../App.css";
 import Introduce_Banner from "./Introduce_Banner";
 import Introduce_Navbar from "./Introduce_Navbar";
@@ -6,11 +6,12 @@ import Introduce_body from "./Introduce_body";
 import "./Introduce.css";
 
 function Introduce() {
+  const [hrefState, setHrefState] = useState('');
   return (
     <>
       <Introduce_Banner />
-      <Introduce_Navbar />
-      <Introduce_body />
+      <Introduce_Navbar setHrefState={setHrefState}/>
+      <Introduce_body hrefState={hrefState} />
     </>
   )
 }

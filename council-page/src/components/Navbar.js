@@ -99,7 +99,7 @@ function Navbar() {
             </div>
     </nav>
     <div className={showSummaryBar === true ? 'summaryBar' : 'summaryBarHidden'} onMouseOver={()=>setShowSummaryBar(true)} onMouseLeave={()=>{setShowSummaryBar(false)}}>
-         <div className="summaryInfoSection">
+         <div className="summaryInfoSection" >
              <div className="contents">당선사례 & 인사말</div>
              <div className="contents" >조직도</div>
              <div className="contents" >학생회칙</div> 

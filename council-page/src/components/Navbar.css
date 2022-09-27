@@ -10,7 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    border-bottom: 1px solid #d9d9d9 ;
+    /* border-bottom: 1px solid #d9d9d9 ; */
     /* padding-left: 24vw; */
   }
   
@@ -21,7 +21,7 @@
     height: 80px;
     max-width: 1500px;
     grid-gap: 3rem;
-    border-bottom: 1px solid #d9d9d9 ;
+    /* border-bottom: 1px solid #d9d9d9 ; */
     /* padding: 1vw 24vw; */
    
     
@@ -94,7 +94,7 @@
     list-style: none;
     text-align: center;
     /* width: 61vw;/ */
-    justify-content: end;
+    justify-content: center;
     /* margin-right: 1rem; */
     margin: auto;
     font-weight: 500;
@@ -122,12 +122,12 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
+    /* padding: 0.5rem 0.5rem; */
     width: 6rem;
     /* grid-gap:1rem; */
     height: 100%;
     top: 29px;
-
+    justify-content: center;
     font-family: 'S-Core Dream';
     font-style: normal;
     font-weight: 500;
@@ -262,6 +262,8 @@
     width: 100%;
     font-size: 0.7rem;
     z-index: 999;
+    background: #F9FAFC;
+    border-top: 1px solid #d9d9d9 ;
     
   }
   .summaryBarHidden {
@@ -276,11 +278,10 @@
   .summaryInfoSection {
     display: flex;
     flex-direction: column;
-    padding: 1% 0.9%;
+    padding: 1% 0.7%;
     width: 9rem;
     grid-gap:1rem;
-    border-top: 1px solid #d9d9d9;;
-    border-left: 1px solid #d9d9d9;
+    /* border-left: 1px solid #d9d9d9; */
     border-right: 1px solid #d9d9d9
     
   }

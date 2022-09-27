@@ -40,7 +40,7 @@ function Login() {
                     <br />
 
                     <div className="d-grid gap-1">
-                        <Button className="button-style" variant="secondary" type="submit">
+                        <Button className="button-style" type="submit">
                             로그인
                         </Button>
                     </div>

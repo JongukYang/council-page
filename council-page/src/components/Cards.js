@@ -1,6 +1,7 @@
 import React from 'react'
 import './Cards.css';
 import Cardimg from './../images/card1.png'
+import test from '../styles.js';
 
 function Card() {
   function Insta() {

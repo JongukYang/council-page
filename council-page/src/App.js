@@ -13,7 +13,7 @@ import Introduce from "./components/pages/introduce/Introduce";
 import Office from "./components/pages/office/Office";
 import Notice from "./components/pages/Notice";
 import ComQuestion from "./components/pages/Communication/Communication_question";
-
+import StyledComponentTest from "./components/pages/StyledComponentTest";
 function App() {
     return (
         <>
@@ -25,6 +25,7 @@ function App() {
                     <Route path="/office" element={<Office />} />
                     <Route path="/notice" element={<Notice />} />
                     <Route path="/communication" element={<Communication />} />
+                    <Route path="/styledtest" element={<StyledComponentTest />} />
                     <Route
                         path="/communication/question"
                         element={<ComQuestion />}

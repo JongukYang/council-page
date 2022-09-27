@@ -5,7 +5,7 @@ import Banner_notice from './Banner_notice';
 function Notice() {
 
   return (
-    <div className="container">
+    <div>
       <Banner_notice/>
     </div>
   )

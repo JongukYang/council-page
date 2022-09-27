@@ -8,10 +8,10 @@ import "./App.css";
 import Main from "./components/pages/Main";
 import Signin from "./components/pages/signin/Signin";
 import Communication from "./components/pages/Communication/Communication";
-import Information from "./components/pages/Information";
+import Information from "./components/pages/information/Information";
 import Introduce from "./components/pages/introduce/Introduce";
 import Office from "./components/pages/office/Office";
-import Notice from "./components/pages/Notice";
+import Notice from "./components/pages/Notice/Notice";
 import ComQuestion from "./components/pages/Communication/Communication_question";
 import StyledComponentTest from "./components/pages/StyledComponentTest";
 function App() {

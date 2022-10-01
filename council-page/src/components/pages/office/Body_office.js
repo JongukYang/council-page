@@ -4,6 +4,9 @@ import "./office.css";
 import chongdae_logo_img from "./images/chongdae_logo_img.png";
 
 function Body_office(props) {
+    const humanitesart = "하루";
+    const socialscience = "BY";
+
   return (
     <>
     {
@@ -48,7 +51,27 @@ function Body_office(props) {
     }
     {
         props.hrefState  === 'dandae' &&
-        <>단대별학생회
+        <>
+        <div className='dandae'>
+            <div className='dandae_item'>
+                인문예술대학 학생회 '{humanitesart}'
+            </div>
+            <div className='dandae_item'>
+                사회과학대학 학생회 '{socialscience}'
+            </div>
+            <div className='dandae_item'>
+                디자인대학 학생회 '{humanitesart}'
+            </div>
+            <div className='dandae_item'>
+                IT공과대학 학생회 '{humanitesart}'
+            </div>
+            <div className='dandae_item'>
+                창의융합대학 학생회 '{humanitesart}'
+            </div>
+            <div className='dandae_item'>
+                미래플러스대학 학생회 '{humanitesart}'
+            </div>
+        </div>
         </>
     }
 </>

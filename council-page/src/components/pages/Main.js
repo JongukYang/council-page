@@ -5,6 +5,8 @@ import Summary_pages from "../Summary_pages";
 import HSU_pages from "./../HSU_pages";
 import Cards from "../Cards";
 import MainNotice from "./Main_Notice";
+import StyledComponentTest from "./StyledComponentTest";
+import Container from "./styles";
 
 function Main() {
     return (

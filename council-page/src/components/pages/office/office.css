@@ -1,8 +1,6 @@
-body{
-    margin: 0 auto;
-    text-align: center;
-}
+
   .Body-container{
+    text-align: center;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -33,4 +31,9 @@ line-height: 180%;
 
   .text{
     padding-bottom: 3rem;
+  }
+
+  .dandae_item{
+    padding: 10% 10%;
+
   }

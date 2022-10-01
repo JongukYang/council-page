@@ -9,5 +9,13 @@ const Container = styled.div `
         color: ${(props) => props.color || "red"} 
     }
 `
-
+const Dandae_item = styled.div`
+    border: 2px solid red;
+    
+    .classes {
+         border: 2px solid blue;
+        font-weihgt: 800;
+        color: ${(props) => props.color || "red"} 
+    }
+`
 export default Container;

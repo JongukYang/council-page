@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import "../../../App.css";
+// import "../../../App.css";
 import Profile_img from "./images/profile.png";
 import "./Introduce.css";
 import Card from 'react-bootstrap/Card';
@@ -38,7 +38,7 @@ function Introduce_body(props) {
                 props.hrefState === 'organization' &&
                 <> 
                 왜안나와 시팔
-                {/* <img src='./images/organization_img.png'/> */}
+                <img src='./images/organization_img.png'/>
                 <body_organization/>
                 </>
             }

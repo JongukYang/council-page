@@ -38,7 +38,7 @@ function Introduce_body(props) {
                 props.hrefState === 'organization' &&
                 <> 
                 왜안나와 시팔
-                <img src='./images/organization_img.png'/>
+                {/* <img src='./images/organization_img.png'/> */}
                 <body_organization/>
                 </>
             }

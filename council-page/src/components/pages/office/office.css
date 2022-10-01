@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+  .Body-container{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    padding: 0% 20% 0% 20%;
+  }
+
+  .Body-img{
+    margin: auto;
+  }
+
+  .logo_img{
+    width: 8rem;
+  }
+
+  .Body-text{
+    /* padding: 1rem; */
+  }
+
+  .title{
+    padding: 2rem;
+    font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 180%;
+  }
+
+  .text{
+    padding-bottom: 3rem;
+  }

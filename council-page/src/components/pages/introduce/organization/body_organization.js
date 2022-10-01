@@ -6,6 +6,7 @@ function body_organization() {
     <>
     <div>
     <img src={organization_img} />
+    <h1>나와라나와라</h1>
     </div>
     </>
   )

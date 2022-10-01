@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Table from "react-bootstrap/Table";
-import EachPost from "./Notice_EachPost";
-import { PagenumberDiv, PagingSection } from "./styledComponenet";
+import { PagenumberDiv, PagingSection } from "./styledComponent";
 import Nav_Notice from "./Nav_Notice";
 import NotHeader from "./Notice_Header";
 import "./Notice.css";

@@ -24,3 +24,12 @@ tr {
     height: 4rem;
     vertical-align: middle;
 }
+.label {
+    margin: 1rem;
+}
+.create-form {
+    width: 90%;
+}
+.create-box {
+    margin-left: 2rem;
+}

@@ -3,8 +3,10 @@ import axios from "axios";
 import Table from "react-bootstrap/Table";
 import EachPost from "./Notice_EachPost";
 import { PagenumberDiv, PagingSection } from "./styledComponenet";
+import Nav_Notice from "./Nav_Notice";
 
 function MainNotice() {
+  const [hrefState, setHrefState] = useState('chongdae');
     const [list, setList] = useState([]);
     const [page, setPage] = useState(1);
     const [pages, setPages] = useState([]);
@@ -21,6 +23,9 @@ function MainNotice() {
 
     return (
         <div className="container">
+          <Nav_Notice setHrefState={setHrefState}/>
+    {/* <Body_office hrefState={hrefState} /> */}
+        <div className="notice-title">주요 공지사항</div>
             <Table className="common-table">
                 <thead>
                     <tr>

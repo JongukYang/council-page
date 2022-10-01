@@ -12,7 +12,6 @@ import EachPost from "./Communication_EachPost.js";
 import axios from "axios";
 import ComHeader from "./Communication_Header";
 import Nav_communication from "./Nav_communication";
-import Form_petiton from "./Petition/Form_petiton";
 
 const initialPostList = [
     { id: 1, title: "총학생회 첫 홈페이지 게시판" },
@@ -45,8 +44,8 @@ function Communication() {
 
     return (
         <>
-            <Nav_communication/>
-            <Form_petiton/>
+            <Nav_communication />
+
             <PostSection>
                 <PostTitle>청원 게시판</PostTitle>
                 <ComHeader></ComHeader>

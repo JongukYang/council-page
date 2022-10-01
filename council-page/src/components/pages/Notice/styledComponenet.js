@@ -18,3 +18,7 @@ export const PagingSection = styled.section`
     width: 150px;
     margin-top: 20px;
 `;
+
+export const EachPostdiv = styled.div``;
+
+export const EachPostTd = styled.td``;

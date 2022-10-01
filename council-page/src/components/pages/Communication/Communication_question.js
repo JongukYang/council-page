@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
+import Form_petiton from "./Petition/Form_petiton";
 
 /*
 function GetCategory() {
@@ -32,6 +34,7 @@ const HandleQuestionSubmit = async ({ item }) => {
         })
         .then((response) => {
             console.log("status : " + response.status);
+            console.log({ item });
         })
         .catch((error) => {
             console.log("error : " + error);
@@ -58,6 +61,13 @@ function ComQuestion() {
     return (
         <>
             <h2 align="center">게시글 작성</h2>
+            <Form_petiton />
+        </>
+    );
+}
+
+export default ComQuestion;
+/*
             <div className="voc-view-wrapper">
                 <div className="voc-view-row">
                     <label>제목</label>
@@ -71,15 +81,13 @@ function ComQuestion() {
                         onChange={(event) => setbody(event.target.value)}
                     ></textarea>
                 </div>
-                <button
-                    className="voc-view-go-list-btn"
-                    onClick={() => HandleQuestionSubmit({ item })}
-                >
-                    등록
-                </button>
+                <Link to="/communication">
+                    <button
+                        className="voc-view-go-list-btn"
+                        onClick={() => HandleQuestionSubmit({ item })}
+                    >
+                        등록
+                    </button>
+                </Link>
             </div>
-        </>
-    );
-}
-
-export default ComQuestion;
+            */

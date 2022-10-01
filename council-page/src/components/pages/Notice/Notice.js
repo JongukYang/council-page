@@ -4,9 +4,12 @@ import Table from "react-bootstrap/Table";
 import EachPost from "./Notice_EachPost";
 import { PagenumberDiv, PagingSection } from "./styledComponenet";
 import Nav_Notice from "./Nav_Notice";
+import NotHeader from "./Notice_Header";
+import "./Notice.css";
+import Banner_notice from "./Banner_notice";
 
 function MainNotice() {
-  const [hrefState, setHrefState] = useState('chongdae');
+    const [hrefState, setHrefState] = useState("chongdae");
     const [list, setList] = useState([]);
     const [page, setPage] = useState(1);
     const [pages, setPages] = useState([]);
@@ -23,33 +26,34 @@ function MainNotice() {
 
     return (
         <div className="container">
-          <Nav_Notice setHrefState={setHrefState}/>
-    {/* <Body_office hrefState={hrefState} /> */}
-        <div className="notice-title">주요 공지사항</div>
-            <Table className="common-table">
+            <Banner_notice />
+            <Nav_Notice setHrefState={setHrefState} />
+            {/* <Body_office hrefState={hrefState} /> */}
+            <div className="notice-title">주요 공지사항</div>
+            <Table className="notice-table">
                 <thead>
                     <tr>
-                        <td>번호</td>
-                        <td>제목</td>
-                        <td>작성자</td>
-                        <td>작성일</td>
-                        <td>조회수</td>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>작성일</th>
+                        <th>조회수</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className="notice-tbody">
                     {list.map((element) => (
                         <tr>
-                            <EachPost
-                                postID={element.id}
-                                title={element.title}
-                                userId={element.userId}
-                            />
+                            <td>{element.id}</td>
+                            <td>{element.title}</td>
+                            <td>{element.userId}</td>
+                            <td>작성일</td>
+                            <td>조회수</td>
                         </tr>
                     ))}
                 </tbody>
             </Table>
 
-            <PagingSection>
+            <PagingSection className="paging">
                 <PagenumberDiv
                     onClick={() => {
                         if (page > 1) {
@@ -74,6 +78,7 @@ function MainNotice() {
                     }}
                 ></PagenumberDiv>
             </PagingSection>
+            <NotHeader />
         </div>
     );
 }

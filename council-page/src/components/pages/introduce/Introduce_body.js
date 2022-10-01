@@ -3,7 +3,10 @@ import React, {useEffect, useState} from 'react'
 import Profile_img from "./images/profile.png";
 import "./Introduce.css";
 import Card from 'react-bootstrap/Card';
+// import body_organization from './organization/body_organization';
 import body_organization from './organization/body_organization';
+import organization_img from "./organization/images/organization_img.png"
+import organization_img2 from "./organization/images/organization_img2.png"
 
 function Introduce_body(props) {
     return (
@@ -37,9 +40,10 @@ function Introduce_body(props) {
             {
                 props.hrefState === 'organization' &&
                 <> 
-                왜안나와 시팔
-                <img src='./images/organization_img.png'/>
-                <body_organization/>
+                <div className="Body-container">
+                    <img className='profile_img' src={organization_img} />
+                    <img className='profile_img' src={organization_img2} />
+                </div>
                 </>
             }
             {

@@ -1,6 +1,6 @@
 import React from 'react'
 import organization_img from './images/organization_img.png'
-import "../../../App.css";
+// import "../../../App.css";
 
 function body_organization() {
   return (

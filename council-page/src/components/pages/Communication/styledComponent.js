@@ -21,6 +21,7 @@ export const PostTitle = styled.span`
     margin-bottom: 5px;
     font-family: "Black Han Sans", sans-serif;
     font-size: 25px;
+    text-align: center;
 `;
 
 export const PostListDiv = styled.div`

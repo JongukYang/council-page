@@ -87,8 +87,8 @@
     font-family: "S-Core Dream";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 170%;
+    font-size: 1.5rem;
+    /* line-height: 170%; */
     /* identical to box height, or 34px */
 
     color: #ffffff;
@@ -100,7 +100,7 @@
 
 .explain {
     display: inline-block;
-    font-size: 0.7em;
+    font-size: 1rem;
     margin-right: 10%;
 }
 .notice-eachPost {
@@ -121,6 +121,7 @@ tr {
 .arrow2 {
     width: 2%;
     height: 2%;
-    margin-left: 70.5%;
+    margin-left: 85%;
     margin-top: 1%;
+    margin-bottom: 1.5%;
 }

@@ -48,7 +48,7 @@ export default function NoticeArea() {
                         // borderBottom: isNotice === false ? "2px solid black" : "none",
                     }}
                 >
-                    회의록
+                    {/* 회의록 */}
                 </li>
                 <img src={Arrow2} alt="화살표" className="arrow2" />
             </ul>

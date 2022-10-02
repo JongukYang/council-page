@@ -85,11 +85,11 @@ function Navbar() {
                 </ul>
                 <ul className={click ? 'nav-menu active' : 'nav-menu-sign'}>
                     
-                <li className='nav-item'>
+                {/* <li className='nav-item'>
                         <Link to='/sign-up' className='nav-links-sign' onClick = {closeMobileMenu}>
                             회원가입
                         </Link>
-                    </li>
+                    </li> */}
                     <li className='nav-item'>
                         <Link to='/sign-in' className='nav-links-sign' onClick = {closeMobileMenu}>
                             로그인

@@ -30,14 +30,14 @@ function HSU_pages() {
 
           <Card id='HSU-pages-item' onClick={hansung} className='border-white' style={{ width: '8vw' }}>
             <Card.Img className='HSU-pages-img' variant="top" src={info_img} />
-            <Card.Body className='HSU-pages-body'>
+            <Card.Body id='HSU-pages-body'>
               <Card.Text className='HSU-pages-text'>한성대학교<br />공식 웹사이트</Card.Text>
             </Card.Body>
           </Card>
 
           <Card id='HSU-pages-item' onClick={eclass} className='border-white' style={{ width: '8vw' }}>
             <Card.Img className='HSU-pages-img' variant="top" src={info_img} />
-            <Card.Body className='HSU-pages-body'>
+            <Card.Body id='HSU-pages-body'>
               <Card.Text className='HSU-pages-text'>E-class</Card.Text>
             </Card.Body>
           </Card>

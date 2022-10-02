@@ -24,10 +24,12 @@ function MainNotice() {
     }, []);
 
     return (
-        <div className="container">
+      <div className="Notice-container">
             <Banner_notice />
             <Nav_Notice setHrefState={setHrefState} />
             {/* <Body_office hrefState={hrefState} /> */}
+        <div className="container">
+            
             <div className="notice-title">주요 공지사항</div>
             <Table className="notice-table">
                 <thead>
@@ -78,6 +80,7 @@ function MainNotice() {
                 ></PagenumberDiv>
             </PagingSection>
             <NotHeader />
+        </div>
         </div>
     );
 }

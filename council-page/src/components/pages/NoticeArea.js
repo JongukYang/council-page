@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NoticeData } from "./apis/NoticeApi";
-import "./Notice/Notice.css";
+import "./Notice_main.css";
 import Arrow2 from "../../images/Arrow2.png";
 
 export default function NoticeArea() {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Notice/Notice.css";
+import "./Notice_main.css";
 import ArrowRight from "../../images/arrow-right.png";
 export default function NoticeBoard() {
     return (

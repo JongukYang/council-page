@@ -12,6 +12,7 @@ import EachPost from "./Communication_EachPost.js";
 import axios from "axios";
 import ComHeader from "./Communication_Header";
 import Nav_communication from "./Nav_communication";
+import Banner_communication from "./Banner_communication";
 
 const initialPostList = [
     { id: 1, title: "총학생회 첫 홈페이지 게시판" },
@@ -44,6 +45,7 @@ function Communication() {
 
     return (
         <>
+            <Banner_communication/>
             <Nav_communication />
 
             <PostSection>

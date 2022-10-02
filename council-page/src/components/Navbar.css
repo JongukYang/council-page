@@ -275,6 +275,15 @@
     padding-left: 22%;
     visibility: hidden;
   }
+  .summaryInfoSection-left{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0.7%;
+    width: 9rem;
+    grid-gap:1rem;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+  }
   .summaryInfoSection {
     display: flex;
     flex-direction: column;
@@ -283,7 +292,6 @@
     grid-gap:1rem;
     /* border-left: 1px solid #d9d9d9; */
     border-right: 1px solid #d9d9d9
-    
   }
   .contents{
     cursor:pointer;

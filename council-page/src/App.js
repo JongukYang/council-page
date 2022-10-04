@@ -15,6 +15,7 @@ import Notice from "./components/pages/Notice/Notice";
 import ComQuestion from "./components/pages/Communication/Communication_question";
 import StyledComponentTest from "./components/pages/StyledComponentTest";
 import Notice_create from "./components/pages/Notice/Notice_create";
+
 function App() {
     return (
         <>
@@ -40,7 +41,9 @@ function App() {
                         element={<ComQuestion />}
                     />
                     <Route path="/information" element={<Information />} />
-                    <Route path="/sign-in" element={<Signin />} />
+                    <Route
+                        path="/sign-in"
+                        element={<Signin />} />
                 </Routes>
                 <Footer />
             </Router>

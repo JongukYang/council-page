@@ -7,7 +7,6 @@ import "./signin.css";
 import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
 
-
 function Login() {
     // const onFinish = values => {
     //     async function fn() {
@@ -39,12 +38,19 @@ function Login() {
             username: username,
             password: password,
         };
-        Axios.post('http://127.0.0.1:8000/accounts/login/', user)
+        Axios.post('http://127.0.0.1:8000/accounts/login/', user, {
+            headers: {
+                "Content-Type": "application/json",
+                // Authorization: `Bearer ${localStorage.getItem(ACCESS_TOKEN)}`
+            },
+        })
             .then(res => {
+                console.log(res)
                 if (res.data.key) {
                     localStorage.clear()
                     localStorage.setItem('token', res.data.key)
-                    window.location.replace('http://localhost:3000/');
+
+                    window.location.href = 'http://localhost:3000/';
                 }
                 else {
                     setUsername('');
@@ -52,14 +58,14 @@ function Login() {
                     localStorage.clear();
                     setErrors(true);
                 }
-            }) 
+            })
             .catch(errors => {
                 // console.clear()
                 console.log("error")
                 setUsername('')
                 setPassword('')
             })
-        };
+    };
 
     return (
         <div className="login-box">

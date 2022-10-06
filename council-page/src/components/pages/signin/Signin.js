@@ -46,10 +46,11 @@ function Login() {
         })
             .then(res => {
                 console.log(res)
-                if (res.data.key) {
+                // if (res.data.key) {
+                    if (res.status == 200) {
                     localStorage.clear()
-                    localStorage.setItem('token', res.data.key)
-
+                    // localStorage.setItem('token', res.data.key)
+                    localStorage.setItem('token', res.request.response)
                     window.location.href = 'http://localhost:3000/';
                 }
                 else {

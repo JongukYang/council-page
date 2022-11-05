@@ -8,24 +8,26 @@ import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
 
 function Login() {
-    // const onFinish = values => {
-    //     async function fn() {
-    //         const { username, password } = values;
-    //         const data = { username, password };
-    //         try {
-    //             const response = await axiosInstance.post("/accounts/token", data);
-    //             const {
-    //                 data: { token: jwtToken }
-    //             } = response;
-    //         }
-    //         catch (error){
-    //             if(error.response) {
-    //                 console.log("로그인 실패");
-    //             }
-    //         }
-    //     }
-    //     fn();
+    // 토큰 저장
+    // const { data } = await postLogin(body);
+    // console.log("postLogin ", data);
+    // set(tokenState, {
+    //     accessToken: data.access_token,
+    //     refreshToken: data.refresh_token
+    // });
+
+    // 요청 보낼때 헤더 포함
+    // const headers = {
+    //     'Authorization': 'Bearer ' + token,
     // }
+
+    // 헤더와 같이 가져오기
+    // axios.get(
+    //     `${URL}/api/marker/${id}`,
+    //      {
+    //          headers: header
+    //     }
+    // )
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -47,7 +49,7 @@ function Login() {
             .then(res => {
                 console.log(res)
                 // if (res.data.key) {
-                    if (res.status == 200) {
+                if (res.status == 200) {
                     localStorage.clear()
                     // localStorage.setItem('token', res.data.key)
                     localStorage.setItem('token', res.request.response)
